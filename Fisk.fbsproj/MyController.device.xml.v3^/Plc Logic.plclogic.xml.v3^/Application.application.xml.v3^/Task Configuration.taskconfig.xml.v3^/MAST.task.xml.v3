@@ -33,7 +33,12 @@ __V3_CONTENT__
   <Single Name="ExternalEvent" Type="string"></Single>
   <Single Name="TaskGuid" Type="System.Guid">74f684e5-b7d0-4ded-90fa-2e34e3268baf</Single>
   <Single Name="EventPOUGuid" Type="System.Guid">6875eaa9-6497-4ecd-8b66-234abe5d1527</Single>
-  <List Name="PouList" Type="{33f568bb-4a2c-48cb-a762-34cca3066d03}" />
+  <List Name="PouList" Type="{33f568bb-4a2c-48cb-a762-34cca3066d03}">
+    <Single Type="{f194d1ef-7376-42ce-a729-4a5485a97a46}" Method="IArchivable">
+      <Single Name="Name" Type="string">MAST</Single>
+      <Single Name="Comment" Type="string"></Single>
+    </Single>
+  </List>
   <Single Name="Implicit" Type="bool">False</Single>
   <Single Name="WithinSPSTimeSlicing" Type="bool">True</Single>
   <Single Name="Core" Type="int">-1</Single>
