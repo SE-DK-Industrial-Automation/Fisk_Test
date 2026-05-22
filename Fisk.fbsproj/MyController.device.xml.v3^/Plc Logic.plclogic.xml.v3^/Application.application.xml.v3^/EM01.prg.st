@@ -18,3 +18,6 @@ VAR
 END_VAR
 __IMPLEMENTATION__
 Counter := Counter +1;
+Counter := Counter +1;
+Counter := Counter +1;
+Counter := Counter +1;
