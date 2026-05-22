@@ -1,0 +1,108 @@
+{
+  "references": {},
+  "placeholderOverrides": {
+    "RSMUtility": "RSM Utility, 3.5.21.0 (CODESYS)",
+    "Standard": "Standard, 3.5.18.0 (System)"
+  },
+  "v3Meta": {
+    "objectName": null,
+    "objectGuid": "6470c6ed-2ba8-4cc5-b5b9-439805c7deb9",
+    "objectTypeGuid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+    "embeddedObjectTypeGuids": [],
+    "properties": {
+      "Elau.Epas5.LibraryConfiguration.CoDeSysInterface.MappingTableObject": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{c8edade9-a049-4800-a2d4-edc2b2aca694}\" Method=\"IArchivable\"><Array Name=\"LibraryMappings\" Type=\"string\"><Single Type=\"string\">ModbusTCPIOScanner, 1.0.1.0 (Schneider Electric)</Single><Single Type=\"string\">EtherNetIP Scanner, 1.0.1.1 (Schneider Electric)</Single><Single Type=\"string\">EtherNetIP Explicit Messaging, 1.2.0.0 (Schneider Electric)</Single><Single Type=\"string\">GMC Independent Interfaces, 1.4.1.0 (Schneider Electric)</Single></Array></Single>"
+    },
+    "subObjects": {}
+  },
+  "libraryParameters": {},
+  "v3SystemLibraries": [
+    {
+      "namespace": "BPLog",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "BreakpointLogging",
+        "defaultResolution": "Breakpoint Logging Functions, * (3S - Smart Software Solutions GmbH)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "EIPSC",
+      "libraryReference": {
+        "$type": "ManagedLibrary",
+        "libraryId": "EtherNetIP Scanner, 1.0.1.1 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "EIPXM",
+      "libraryReference": {
+        "$type": "ManagedLibrary",
+        "libraryId": "EtherNetIP Explicit Messaging, 1.2.0.0 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IoStandard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IoStandard",
+        "defaultResolution": "IoStandard, 3.5.17.0 (System)",
+        "allowUnqualifiedAccess": true,
+        "linkAllContent": true
+      }
+    },
+    {
+      "namespace": "SE_IOS",
+      "libraryReference": {
+        "$type": "ManagedLibrary",
+        "libraryId": "ModbusTCPIOScanner, 1.0.1.0 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_PLCSystem",
+        "defaultResolution": "M251 PLCSystem, 1.0.2.5 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC_RELOC",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_RelocationTable",
+        "defaultResolution": "Relocation Table, 1.0.3.0 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEN",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_PLCCommunication",
+        "defaultResolution": "PLCCommunication, 1.0.5.5 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "Standard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "Standard",
+        "defaultResolution": "Standard, 3.5.18.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "Util",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "Util",
+        "defaultResolution": "Util, 3.5.21.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    }
+  ]
+}
