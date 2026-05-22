@@ -12,7 +12,7 @@ __V3_META__
 __V3_CONTENT__
 <?xml version="1.0" encoding="utf-8"?>
 <Single xml:space="preserve" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
-  <Single Name="UniqueIdGenerator" Type="string">6542</Single>
+  <Single Name="UniqueIdGenerator" Type="string">6544</Single>
   <Null Name="TypeList" />
   <Single Name="NeedsBusCycle" Type="bool">False</Single>
   <Single Name="Id" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}" Method="IArchivable">
@@ -26547,6 +26547,24 @@ __V3_CONTENT__
               </Single>
               <Single Name="ParamType" Type="string">localTypes:DHCPSHOSTENTRY</Single>
               <Single Name="IndexInDevDesc" Type="long">128</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">1001</Single>
+              <Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+                <Single Name="PositionId" Type="long">6543</Single>
+                <Single Name="EditorPositionId" Type="long">6544</Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Default" Type="string">InterfaceUsedByDhcpSize</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">1001</Single>
+                <Single Name="Value" Type="string">0</Single>
+                <Single Name="Type" Type="string">UINT</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:UINT</Single>
             </Single>
           </List2>
           <Single Name="LmGuid" Type="System.Guid">459d7448-ca1e-59a8-9348-d7990e91dc32</Single>
