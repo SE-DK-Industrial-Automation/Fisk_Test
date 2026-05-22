@@ -19,4 +19,9 @@ END_VAR
 
 __IMPLEMENTATION__
 Counter := Counter + 2 ;
+Counter := Counter + 2 ;
+Counter := Counter + 2 ;
+Counter := Counter + 2 ;Counter := Counter + 2 ;
+Counter := Counter + 2 ;
+vCounter := Counter + 2 ;Counter := Counter + 2 ;Counter := Counter + 2 ;
 
