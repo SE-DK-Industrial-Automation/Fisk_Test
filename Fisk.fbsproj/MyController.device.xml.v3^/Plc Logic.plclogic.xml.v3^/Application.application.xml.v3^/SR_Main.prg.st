@@ -12,15 +12,5 @@ __METADATA__
   }
 }
 __DECLARATION__
-PROGRAM SR_Main
-VAR
-	Counter: INT;
-END_VAR
-
 __IMPLEMENTATION__
-Counter := Counter + 2 ;
-Counter := Counter + 2 ;
-Counter := Counter + 2 ;
-Counter := Counter + 2 ;
-
 
